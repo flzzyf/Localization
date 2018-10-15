@@ -2,12 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum Language { Chinese, English }
+
 public class LocalizationMgr : Singleton<LocalizationMgr>
 {
-    private const string chinese = "Chinese";
-    private const string english = "English";
-
-    public string language = "Chinese";
+    public Language language = Language.Chinese;
 
     private Dictionary<string, string> dic = new Dictionary<string, string>();
 
@@ -19,7 +18,7 @@ public class LocalizationMgr : Singleton<LocalizationMgr>
 
     void Init()
     {
-        TextAsset ta = Resources.Load<TextAsset>(language);
+        TextAsset ta = Resources.Load<TextAsset>(language.ToString());
         string text = ta.text;
 
         string[] lines = text.Split('\n');
