@@ -837,7 +837,7 @@ MonoBehaviour:
     m_Options:
     - m_Text: "\u7B80\u4F53\u4E2D\u6587"
       m_Image: {fileID: 0}
-    - m_Text: "\u7E41\u4F53\u4E2D\u6587"
+    - m_Text: "\u7E41\u9AD4\u4E2D\u6587"
       m_Image: {fileID: 0}
     - m_Text: English
       m_Image: {fileID: 0}
