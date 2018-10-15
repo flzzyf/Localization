@@ -1,4 +1,4 @@
-button=这是一个按钮
+button=按鈕
 victory=辉煌的胜利！\n因为英勇作战,{0}获得了{1}经验值
 defeat=你的军队惨遭失败，{0}背叛了你
 battleResult_Victory=胜利

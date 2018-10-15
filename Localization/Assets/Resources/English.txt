@@ -1,1 +1,2 @@
 button=Button
+defeat=It's me! {0}!

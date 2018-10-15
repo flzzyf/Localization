@@ -7,7 +7,12 @@ public class LocalizationText : MonoBehaviour
 {
     public string key;
 
-    void Start()
+    void Awake()
+    {
+        LocalizationMgr.instance.localizationTexts.Add(this);
+    }
+
+    public void Init()
     {
         GetComponent<Text>().text = LocalizationMgr.instance.GetText(key);
     }
